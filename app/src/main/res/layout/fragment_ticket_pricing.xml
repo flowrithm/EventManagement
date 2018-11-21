@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tabs.PassPricing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorWhite"
+                app:mcv_allowClickDaysOutsideCurrentMonth="false"
+                app:mcv_arrowColor="@color/colorPrimaryDark"
+                app:mcv_calendarMode="month"
+                app:mcv_dateTextAppearance="?android:textAppearanceMedium"
+                app:mcv_firstDayOfWeek="monday"
+                app:mcv_headerTextAppearance="?android:textAppearanceLarge"
+                app:mcv_selectionColor="@color/colorPrimaryDark"
+                app:mcv_showOtherDates="decorated_disabled"
+                app:mcv_tileHeight="30dp"
+                app:mcv_weekDayLabels="@color/colorPrimary"
+                app:mcv_weekDayTextAppearance="?android:textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/layoutAddPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_white_rounded"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_blue_top_rounded">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@mipmap/icon_rupee" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:text="Ticket Price"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_white_blue_border_rounded"
+                        android:elevation="3dp"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:text=""
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="* excluding taxes"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_blue_rounded"
+                    android:elevation="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

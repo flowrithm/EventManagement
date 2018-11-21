@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Daang Diaries</string>
+
+    <string name="Error_Network_Not_Reachable">Internet is not reachable</string>
+    <string name="error_network_timeout">Network time out</string>
+    <string name="verify_otp_message">Enter Verification Code Sent to Your Mobile</string>
+    <string name="smsSender">611332</string>
+    <string name="ChannelId">com.flowrithm.daangdairies</string>
+    <string name="ChannelName">DangDairies</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="AppIdAds">ca-app-pub-4612205757510322~9566429959</string>
+    <string name="bannerAdId">ca-app-pub-4612205757510322/4766239855</string>
+    <string name="InterstitialAdId">ca-app-pub-4612205757510322/9816690867</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutus">\tDang dairies is not just an ordinary group of camping. It is a destination of spiritual healing self-unclear tap of our mother nature.
+\n\n\t Dang diaries is an association that will make you experience the things you have never experienced earlier. It is the one step solution for all society trafficked life’s.
+\n\n\t The total feeling of losing self into the sends, stones, breathes of Mother Nature and living healthy life style with such activities as group cycling, camping, both together, adventure activities, fun games...
+\n\n“If one needs to heal,
+\nWe are the Solution"
+</string>
+
+</resources>

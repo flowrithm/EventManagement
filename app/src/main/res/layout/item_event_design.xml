@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:src="@drawable/icon_banner1"
+        android:id="@+id/imgEvent"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:elevation="5dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/background_blue_left_bottom_rounded"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtStartDate"
+                android:text=""
+                android:textSize="10dp"
+                android:textColor="@color/colorWhite"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutEndDate"
+            android:layout_marginLeft="20dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/background_blue_right_bottom_rounded"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:padding="10dp"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:id="@+id/txtEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#66000000"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:id="@+id/txtEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/txtVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

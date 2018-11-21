@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lblTaxType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.6"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:text="Total"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text=":"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblTaxValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text=""
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+</LinearLayout>

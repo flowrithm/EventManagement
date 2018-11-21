@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Events.TaxInfo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/background_white_rounded"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/background_blue_top_rounded"
+            android:text="Taxation Detail"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/layoutInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/background_white_rounded"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnOk"
+            android:text="ok"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_blue_rounded"
+            android:textAllCaps="false"
+            android:layout_width="90dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

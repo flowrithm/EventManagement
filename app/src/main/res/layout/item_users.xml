@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_white_rounded"
+        android:elevation="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_user" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.8"
+                android:text="Name"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_phonebook" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.8"
+                android:text="Mobile No"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtContact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_city" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.8"
+                android:text="City"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_role" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.8"
+                android:text="Role"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtRole"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

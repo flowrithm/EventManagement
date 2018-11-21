@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "242807731441",
+    "firebase_url": "https://eventmanagement-166d5.firebaseio.com",
+    "project_id": "eventmanagement-166d5",
+    "storage_bucket": "eventmanagement-166d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242807731441:android:47909ccea5ad6fd9",
+        "android_client_info": {
+          "package_name": "com.flowrithm.daangdiaries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242807731441-09tcmkicel0j2nvmh3nj6omn6pm073gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38DujIoyvyHCPJ_uku5RC4_FHOamiPhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242807731441:android:c5430477c71b6cff",
+        "android_client_info": {
+          "package_name": "com.flowrithm.eventmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242807731441-kf9it4ebjro2crbcl7af2s653urcbnbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flowrithm.eventmanagement",
+            "certificate_hash": "b040ac6fa07fc742b9608c5a1954798775b85bbe"
+          }
+        },
+        {
+          "client_id": "242807731441-09tcmkicel0j2nvmh3nj6omn6pm073gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38DujIoyvyHCPJ_uku5RC4_FHOamiPhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242807731441-09tcmkicel0j2nvmh3nj6omn6pm073gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4612205757510322~4477443743"
+    }
+  ],
+  "configuration_version": "1"
+}

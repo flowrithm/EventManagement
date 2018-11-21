@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_weight="4.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:src="@drawable/icon_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="5.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:background="@drawable/background_white_blue_border_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:elevation="3dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:weightSum="10">
+
+            <ImageView
+                android:background="@drawable/background_blue_rounded_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:src="@mipmap/icon_call_white" />
+
+            <EditText
+                android:maxLength="10"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/etMobileNo"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8.5"
+                android:background="@null"
+                android:hint="Enter Mobile No"
+                android:padding="7dp"
+                android:textColorHint="@color/grey" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRequestOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_blue_rounded"
+            android:elevation="5dp"
+            android:text="Request for OTP"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_blue_rounded"
+            android:elevation="5dp"
+            android:text="Register"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
